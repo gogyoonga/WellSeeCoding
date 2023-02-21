@@ -1,0 +1,23 @@
+
+
+
+*{
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.profileImg img{
+    width: 300px;
+}
+li{
+    list-style: none;
+}
+a:link {
+    color: #000000;
+  }
+  a:visited {
+    color: #000000;
+  }
