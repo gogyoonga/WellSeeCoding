@@ -14,8 +14,22 @@
 body{
     background: linear-gradient(to bottom right, #80DEEA, pink);
 }
+#logo{
+    margin: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    margin-bottom: 50px;
+    position: sticky;
+    background-color:#3e3e3e2c;
+    top: 0px;
+}
+#logo img{
+    width: 100px;
+}
 .profileImg img{
     width: 300px;
+    height: 300px;
+    border-radius: 150px;
 }
 li{
     list-style: none;
@@ -24,6 +38,45 @@ li{
 a:link {
     color: #3e3e3e;
   }
-  a:visited {
+a:visited {
     color: #3e3e3e;
+  }
+  .etc{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .etc p{
+    font-size: 25px;
+    
+  }
+.skills{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7.5px;
+}
+.studying{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7.5px;
+}
+#sideMenuBar{
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 30px;
+    left:70%;
+    position: sticky;
+    background-color: white;
+}  
+  #sideMenuBar li {
+    font-size: 25px;
+  }
+li img{
+    width: 100px;
   }
