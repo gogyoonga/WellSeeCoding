@@ -1,0 +1,47 @@
+
+*{
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #3e3e3e;
+    
+}
+html{
+    height: 100vh;
+}
+body{
+    background: linear-gradient(to bottom right, #80DEEA, pink);
+    
+}
+#logo{
+    margin: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    margin-bottom: 50px;
+    position: sticky;
+    background-color:#3e3e3e2c;
+    top: 0px;
+}
+#logo img{
+    width: 100px;
+}
+
+#sideMenuBar{
+    width: 150px;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 30px;
+    left:70%;
+    position: sticky;
+    background-color: white;
+}  
+  #sideMenuBar li {
+    font-size: 25px;
+  }
+li img{
+    width: 100px;
+  }
