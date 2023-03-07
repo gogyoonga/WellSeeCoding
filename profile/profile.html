@@ -8,10 +8,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
     <title>WellSeeCoding</title>
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <div id="logo"><img src="./image/WSC.png" alt="logo"></div>
+    <div data-aos="fade-down">
+   <div id="we">
+    <p>We are</p>
+    WELL SEE CODING
+   </div>
+   
+   
+    <div data-aos="fade-right">
+    
     <div id="sik">
         <div class="profileImg"><img src="./image/recodeImg.png" alt="sik-08"></div>
         <div class="profileContent">
@@ -35,6 +45,8 @@
             </div></div>
         </div>
     </div>
+</div>
+    <div data-aos="fade-left">
     <div id="yoon">
         <div class="profileImg"><img src="./image/gggImg.png" alt="gogyoonga" ></div>
         <div class="profileContent">
@@ -51,18 +63,24 @@
                 <div class="tmi"><p>"It's the TMI ZONE."</p></div></div>
         </div>
     </div>
-
+</div>
     <section id="sideMenuBar">
         <div class="menu">
             <ul>
                 <li><img src="./image/menuImg.png" alt="What you need?"></li>
-                <li>MAIN</li>
-                <li>MEMBER</li>
-                <li>TECHNOLOGY</li>
-                <li>HISTORY</li>
-                <li>ABOUT</li>
+                <li><a href="../sik/main.html"> MAIN</a></li>
+                <li><a href="profile.html">MEMBER</a> </li>
+                <li><a href="../technology/technology.html">TECHNOLOGY</a> </li>
+                <li><a href="../history/history.html">HISTORY</a> </li>
+                <li><a href="../about/about.html">ABOUT</a> </li>
             </ul>
         </div>
     </section>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

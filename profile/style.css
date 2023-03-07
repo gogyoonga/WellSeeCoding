@@ -66,6 +66,7 @@ a:visited {
 }
 #sideMenuBar{
     width: 150px;
+    height: 275px;
     border-radius: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -74,9 +75,32 @@ a:visited {
     position: sticky;
     background-color: white;
 }  
-  #sideMenuBar li {
+  #sideMenuBar li a{
     font-size: 25px;
   }
 li img{
     width: 100px;
+  }
+
+
+  body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 400ms;
+  }
+#we{
+  margin: 20vh;
+  color: white;
+  font-size: 140px;
+  
+}
+#we p{
+  color: white;
+  font-size: 50px;
+}
+  #sik{
+    margin: 20vh;
+  }
+
+  #yoon{
+    margin: 20vh;
   }

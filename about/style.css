@@ -27,7 +27,6 @@ body{
 }
 #logo img{
     width: 100px;
-   
 }
 
 #sideMenuBar{
@@ -39,7 +38,7 @@ body{
   bottom: 30px;
   left:70%;
   position: sticky;
-  background-color: rgba(255, 255, 255);
+  background-color: white;
 } 
   #sideMenuBar li  a {
     font-size: 25px;
@@ -52,8 +51,8 @@ li img{
     transition-duration: 400ms;
   }
   .box{
-    width: 60vw;
-    height: 60vh;
+    width: 200px;
+    height: 200px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: auto;
     margin-bottom: 30px;
