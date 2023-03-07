@@ -1,3 +1,4 @@
+/* CSS 코드 */
 body {
   margin: 0;
   padding: 0;
@@ -48,36 +49,35 @@ img {
   margin-right: 10px;
 }
 
-nav ul {
+nav.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
+nav.menu li {
   display: inline-block;
   position: relative;
   width: 100px;
 }
 
-nav ul ul {
+nav.menu ul.menuItem {
   position: absolute;
   top: 100%;
   left: 0;
   display: none;
-  
 }
-nav ul li a:hover{
+
+nav.menu ul li a:hover{
   background-color: #3e3e3e1a;
   color: #00a5c6;
 }
 
-nav li:hover > ul {
+nav.menu li:hover > ul.menuItem {
   display: block;
-  
 }
 
-nav a {
+nav.menu a {
   display: block;
   padding: 10px;
   text-decoration: none;
@@ -85,11 +85,11 @@ nav a {
   font-size: 24px;
 }
 
-nav ul ul a {
+nav.menu ul.menuItem a {
   font-size: 24px;
 }
 
-nav ul ul li {
+nav.menu ul.menuItem li {
   display: block;
   background-color: #fff;
 }
