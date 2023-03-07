@@ -59,6 +59,7 @@ nav.menu li {
   display: inline-block;
   position: relative;
   width: 100px;
+  text-align: center;
 }
 
 nav.menu ul.menuItem {
@@ -66,10 +67,27 @@ nav.menu ul.menuItem {
   top: 100%;
   left: 0;
   display: none;
+  background-color: #ffffff65;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition: max-height 0.5s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
 }
 
+nav.menu ul.menuItem li {
+  display: block;
+  margin: auto;
+}
+
+nav.menu li:hover > ul {
+  display: block;
+  max-height: 500px;
+}
+
+
 nav.menu ul li a:hover{
-  background-color: #3e3e3e1a;
+  background-color: #a1a1a11a;
   color: #00a5c6;
 }
 
@@ -91,5 +109,7 @@ nav.menu ul.menuItem a {
 
 nav.menu ul.menuItem li {
   display: block;
-  background-color: #fff;
+ 
+  width: 120px;
+  text-align: center;
 }
