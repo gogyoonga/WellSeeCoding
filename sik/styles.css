@@ -26,7 +26,9 @@ footer {
 h1 {
   margin-top: 0;
   animation: move-text 1s ease-in-out infinite alternate;
-  font-size: 45px;
+  font-size: 40px;
+  font-family: 'Urbanist', sans-serif;
+  color:#3e3e3e;
 }
 
 @keyframes move-text {
@@ -50,26 +52,44 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
 }
 
 nav li {
-  float: left;
+  display: inline-block;
+  position: relative;
+  width: 100px;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  
+}
+nav ul li a:hover{
+  background-color: #3e3e3e1a;
+  color: #00a5c6;
+}
+
+nav li:hover > ul {
+  display: block;
+  
 }
 
 nav a {
   display: block;
-  padding: 20px 30px;
-  color: #000;
+  padding: 10px;
   text-decoration: none;
+  color: #000;
   font-size: 24px;
 }
 
-nav a:hover {
-  background-color: #fff;
-  color: #00a5c6;
+nav ul ul a {
+  font-size: 24px;
 }
 
-nav li:not(:last-child) {
-  margin-right: 30px;
+nav ul ul li {
+  display: block;
+  background-color: #fff;
 }
