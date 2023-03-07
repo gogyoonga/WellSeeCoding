@@ -12,7 +12,7 @@
 
 }
 body{
-    background: linear-gradient(to bottom right, #80DEEA, pink);
+    background: linear-gradient(to bottom right, #80DEEA,white, pink);
 }
 #logo{
     margin: auto;
@@ -89,7 +89,8 @@ li img{
   }
 #we{
   margin: 20vh;
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 2px 5px #3e3e3e3a;
   font-size: 140px;
   
 }
