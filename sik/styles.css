@@ -1,4 +1,4 @@
-/* CSS 코드 */
+/* CSS 코드
 body {
   margin: 0;
   padding: 0;
@@ -75,6 +75,7 @@ nav.menu ul.menuItem {
   overflow: hidden;
 }
 
+
 nav.menu ul.menuItem li {
   display: block;
   margin: auto;
@@ -111,4 +112,120 @@ nav.menu ul.menuItem li {
   display: block;
   width: 120px;
   text-align: center;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dongle', sans-serif;
+  background-color:#ffffff2f;
+}
+
+header {
+  background: linear-gradient(to bottom right, #80DEEA, #ffffff75, pink);
+  color: #fff;
+  padding: 20px;
+}
+
+section {
+  text-align: left;
+  padding: 50px;
+}
+
+footer {
+  background-color: #eee7f5;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  animation: move-text 1s ease-in-out infinite alternate;
+  font-size: 40px;
+  font-family: 'Urbanist', sans-serif;
+  color: #3e3e3e;
+}
+
+@keyframes move-text {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+
+p {
+  font-size: 24px;
+}
+
+img {
+  margin-right: 10px;
+}
+
+nav.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu li {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+
+nav.menu ul.menuItem {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #ffffff65;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition: max-height 0.5s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+nav.menu ul.menuItem li {
+  display: block;
+  margin: auto;
+}
+
+nav.menu li:hover > ul {
+  display: block;
+  max-height: 500px;
+}
+
+nav.menu ul li a:hover{
+  background-color: #a1a1a11a;
+  color: #00a5c6;
+  border-bottom: 2px solid #00a5c6;
+  transform: scale(1.05);
+}
+
+nav.menu li:hover > ul.menuItem {
+  display: block;
+}
+
+nav.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+nav.menu ul.menuItem a {
+  font-size: 24px;
+}
+
+nav.menu ul.menuItem li {
+  display: block;
+  width: 120px;
+  text-align: center;
+  border-bottom: 1px solid #000;
 }
