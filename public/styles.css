@@ -193,7 +193,7 @@ nav.menu li {
 
 nav.menu ul.menuItem {
   position: absolute;
-  top: 120%;
+  top: 100%;
   display: none;
   background-color: #ffffffb4;
   padding: 10px;
