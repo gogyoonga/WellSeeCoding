@@ -52,12 +52,13 @@ h1 {
 
 p {
   font-size: 16px;
+  padding: 0 20%;
   @media (min-width: 768px) {
     width: 500px;
     text-align: center;
     margin: auto;
   }
-  padding: 0 20%;
+  
 }
 
 img {
