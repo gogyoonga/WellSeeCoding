@@ -12,14 +12,14 @@ body {
 header {
   background: linear-gradient(to bottom right, #80DEEA, #ffffff75, pink);
   color: #fff;
-  padding: 20px;
+  padding: 10px; /* 수정: 모바일 화면에서 패딩 크기 조정 */
 }
 
 section {
   font-family: 'Gowun Dodum';
   font-size: 16px;
   text-align: center;
-  padding: 50px;
+  padding: 20px; /* 수정: 모바일 화면에서 패딩 크기 조정 */
 }
 
 
@@ -29,17 +29,18 @@ footer {
   background-color: #eee7f5;
   color: #000;
   text-align: center;
-  padding: 20px;
+  padding: 10px; /* 수정: 모바일 화면에서 패딩 크기 조정 */
 }
 
 h1 {
   text-align: center;
   margin-top: 0;
   animation: move-text 1s ease-in-out infinite alternate;
-  font-size: 40px;
+  font-size: 28px; /* 수정: 모바일 화면에서 글꼴 크기 조정 */
   font-family: 'Urbanist', sans-serif;
   color: #3e3e3e;
 }
+
 
 @keyframes move-text {
   from {
@@ -52,13 +53,8 @@ h1 {
 
 p {
   font-size: 16px;
-  padding: 0 20%;
-  @media (min-width: 768px) {
-    width: 500px;
-    text-align: center;
-    margin: auto;
-  }
-  
+  padding: 0 10%; /* 수정: 모바일 화면에서 패딩 크기 조정 */
+  text-align: left; /* 수정: 텍스트를 왼쪽 정렬로 변경 */
 }
 
 img {

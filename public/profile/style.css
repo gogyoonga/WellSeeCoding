@@ -1,107 +1,115 @@
+/* 모바일 환경 최적화 */
 
-
-
-*{
-    font-family: 'Dongle', sans-serif;
-    font-size: xx-large;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    color: #3e3e3e;
-
-}
-body{
-    background: linear-gradient(to bottom right, #80DEEA,white, pink);
-}
-#logo{
-    margin: auto;
-   padding-top: 20px;
-   padding-bottom: 20px;
-    margin-bottom: 50px;
-    position: sticky;
-    background-color:#3e3e3e11;
-    top: 0px;
-}
-#logo img{
-    width: 100px;
-}
-.profileImg img{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-}
-li{
-    list-style: none;
+/* 모든 요소의 글꼴과 기본 스타일 */
+* {
+  font-family: 'Dongle', sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: none;
+  color: #3e3e3e;
 }
 
-a:link {
-    color: #3e3e3e;
-  }
+/* 전체 페이지의 배경 스타일 */
+body {
+  background: linear-gradient(to bottom right, #80DEEA, white, pink);
+  margin: 0; /* 추가: 기본 margin 제거 */
+}
+
+/* 로고 영역 스타일 */
+#logo {
+  padding: 20px;
+  margin-bottom: 20px; /* 수정: 여백 조정 */
+  background-color: #3e3e3e11;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+/* 로고 이미지 크기 조정 */
+#logo img {
+  width: 80px; /* 수정: 로고 이미지 크기 조정 */
+}
+
+
+/* 프로필 이미지 크기와 모양 조정 */
+.profileImg img {
+  width: 100%; /* 수정: 이미지를 부모 요소의 너비에 맞게 조정 */
+  max-width: 200px; /* 수정: 이미지의 최대 너비 지정 */
+  height: auto;
+  border-radius: 50%; /* 수정: 원형 모양으로 변경 */
+}
+
+/* 리스트 스타일 제거 */
+li {
+  list-style: none;
+}
+
+/* 링크 색상 설정 */
+a:link,
 a:visited {
-    color: #3e3e3e;
-  }
-  .etc{
-    width: 300px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-  }
-  .etc p{
-    font-size: 25px;
-    
-  }
-.skills{
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 7.5px;
+  color: #3e3e3e;
 }
-.studying{
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 7.5px;
-}
-#sideMenuBar{
-    width: 150px;
-    height: 275px;
-    border-radius: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    bottom: 30px;
-    left:70%;
-    position: sticky;
-    background-color: white;
-}  
-  #sideMenuBar li a{
-    font-size: 25px;
-  }
-li img{
-    width: 100px;
-  }
 
-
-  body[data-aos-duration='4000'] [data-aos],
-  [data-aos][data-aos][data-aos-duration='4000'] {
-    transition-duration: 400ms;
-  }
-#we{
-  margin: 20vh;
-  color: rgb(255, 255, 255);
-  text-shadow: 5px 2px 5px #3e3e3e3a;
-  font-size: 140px;
-  
+/* 기타 정보 컨테이너 스타일 */
+.etc {
+  margin: 10px auto;
+  text-align: center;
 }
-#we p{
+
+/* 기타 정보 글꼴 크기 조정 */
+.etc p {
+  font-size: 2vw;
+}
+
+/* 스킬 및 공부 중 컨테이너 스타일 */
+.skills,
+.studying {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 7.5px;
+  text-align: center;
+  max-width: 250px; /* 추가: 최대 너비 지정 */
+}
+
+/* 사이드 메뉴 스타일 */
+#sideMenuBar {
+  width: 120px;
+  padding: 20px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px; /* 수정: 오른쪽에 고정 */
+  background-color: white;
+  text-align: center;
+}
+
+/* 사이드 메뉴 링크 글꼴 크기 조정 */
+#sideMenuBar li a {
+  font-size: 2vw;
+}
+
+/* 사이드 메뉴 아이콘 크기 조정 */
+li img {
+  width: 50px; /* 수정: 아이콘 크기 조정 */
+}
+
+/* 웰씨코딩 설명 영역 스타일 */
+#we {
+  margin: 10vh auto; /* 수정: 수직 여백 조정 */
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 3px 2px 5px #3e3e3e3a;
+  font-size: 15vw; /* 수정: 반응형 폰트 크기 설정 */
+}
+
+/* 웰씨코딩 설명 영역 내부 요소 스타일 */
+#we p {
   color: white;
-  font-size: 50px;
+  font-size: 10vw;
 }
-  #sik{
-    margin: 20vh;
-  }
 
-  #yoon{
-    margin: 20vh;
-  }
+/* 프로필 컨테이너 스타일 */
+#sik,
+#yoon {
+  margin: 10vh auto; /* 수정: 수직 여백 조정 */
+}
